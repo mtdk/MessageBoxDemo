@@ -1,1 +1,4 @@
 # MessageBoxDemo
+
+本例引用codeProject网站的Awadhendra1234作者的作品
+感谢Awadhendra1234提供的案例
