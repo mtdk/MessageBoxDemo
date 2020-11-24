@@ -28,12 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblMessageText = new System.Windows.Forms.Label();
+            this.pnlShowMessage = new System.Windows.Forms.Panel();
+            this.SuspendLayout();
+            // 
+            // lblMessageText
+            // 
+            this.lblMessageText.AutoSize = true;
+            this.lblMessageText.Location = new System.Drawing.Point(37, 24);
+            this.lblMessageText.Name = "lblMessageText";
+            this.lblMessageText.Size = new System.Drawing.Size(41, 12);
+            this.lblMessageText.TabIndex = 0;
+            this.lblMessageText.Text = "label1";
+            // 
+            // pnlShowMessage
+            // 
+            this.pnlShowMessage.Location = new System.Drawing.Point(39, 101);
+            this.pnlShowMessage.Name = "pnlShowMessage";
+            this.pnlShowMessage.Size = new System.Drawing.Size(200, 100);
+            this.pnlShowMessage.TabIndex = 1;
+            // 
+            // frmShowMessage
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.pnlShowMessage);
+            this.Controls.Add(this.lblMessageText);
+            this.Name = "frmShowMessage";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblMessageText;
+        private System.Windows.Forms.Panel pnlShowMessage;
     }
 }
 
